@@ -1,4 +1,4 @@
-const CACHE = 'paris-news-a6a541bf14';
+const CACHE = 'paris-news-2f54320374';
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "img/cover.jpg", "img/ex_cezanne.jpg", "img/logo.png", "img/w00.jpg", "img/w01.jpg", "img/w02.jpg", "img/w03.jpg", "img/w04.jpg", "img/w05.jpg", "img/w06.jpg", "img/w07.jpg", "img/w08.jpg", "img/w09.jpg", "img/w10.jpg", "img/w11.jpg", "img/w12.jpg", "img/w13.jpg", "img/w14.jpg", "img/w15.jpg", "img/w16.jpg", "img/w17.jpg", "img/w18.jpg", "img/w19.jpg", "img/w20.jpg", "img/w21.jpg", "img/w22.jpg", "img/w23.jpg", "img/w24.jpg", "img/w25.jpg", "img/w26.jpg", "img/w30.jpg", "img/w31.jpg", "img/w32.jpg", "img/w33.jpg", "img/w34.jpg", "img/w40.jpg", "img/w41.jpg", "img/w42.jpg"];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
